@@ -53,19 +53,21 @@ The first release will not infer mistake causes automatically. The learner confi
 
 ## Current Status
 
-The repository currently contains the shared project scaffold and course documentation. A working vocabulary prototype has been developed locally and is being prepared for integration. The sentence and mistake-review modules remain planned work.
+The repository contains the shared project scaffold, course documentation, and the working [Vocabulary Module Version 3.0.0](vocabulary-module/). The sentence and mistake-review modules remain planned work.
 
 | Area | Status |
 | --- | --- |
 | Requirements and project documents | In progress |
-| Vocabulary recommendation rules | Prototype implemented |
-| Local English-Chinese dictionary lookup | Prototype implemented |
-| Wordbook and mastery tracking | Prototype implemented |
+| Vocabulary recommendation rules | Version 3.0.0 implemented |
+| Local English-Chinese dictionary lookup | Version 3.0.0 implemented |
+| Wordbook and mastery tracking | Version 3.0.0 implemented |
 | Long-sentence reading hints | Planned |
 | Mistake records and review advice | Planned |
 | Integrated application and user evaluation | Planned |
 
 ## Vocabulary Prototype Design
+
+The vocabulary module was designed and developed by **Liu Yudan**. Its source, setup instructions, tests, and version history are available in [`vocabulary-module/`](vocabulary-module/).
 
 The vocabulary prototype uses:
 
@@ -89,6 +91,7 @@ Different word forms are not comprehensively merged in the first release. For ex
 
 ```text
 .
+├── vocabulary-module/         # Working Version 3 vocabulary application
 ├── frontend/                  # User interface
 ├── backend/                   # API and application services
 ├── analysis/
